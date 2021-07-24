@@ -1,0 +1,70 @@
+.SideMenu {
+    padding-right: 0px;
+    background-color: rgb(69, 108, 134);
+    padding-left: 10px;
+}
+
+.SideMenu-Title {
+    margin-top: 20px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    border-bottom: 1px solid wheat;
+}
+
+.kanban-sideMenu {
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.kanban-sideMenu .ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+    background: transparent !important;
+}
+
+
+.kanban-sideMenu Button {
+    height: 85px;
+    margin-right: 10px;
+    width: 100%;
+    background: rgb(100 135 158);
+}
+
+.kanban-sideMenu Button span{
+    color: wheat;
+}
+
+
+.CreateKanban .ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+    background: transparent !important;
+    border-color: red;
+}
+
+.CreateKanban Button {
+    height: 85px;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+.CreateKanban .anticon {
+    color: wheat;
+}
+
+.CreateKanbanTitle{ 
+    color: wheat;
+}
+
+.kanban-sideMenu-button-wrap .anticon-delete {
+    color: wheat;
+    padding-right: 5px;
+}
+
+.kanban-sideMenu-button-wrap .anticon-edit {
+    color: wheat;
+}
+
+.kanban-sideMenu-button-wrap .SideMenuIcons {
+    margin: auto;
+}

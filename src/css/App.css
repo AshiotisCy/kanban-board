@@ -1,0 +1,191 @@
+.App {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.SelectAKanban {
+    margin-top: 40px;
+}
+
+.App .ColumnsRendered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App .ColumnsRendered .Column {
+    margin: 8px;
+    width: 100%;
+}
+
+.App .ColumnsRendered .Column .DroppableColumn {
+    padding: 4px;
+    width: 100%;
+    min-height: 600px;
+}
+
+.App .ColumnsRendered .Column .DroppableColumn .DraggableItem {
+    padding: 16px;
+    margin: 0 0 8px 0;
+    min-height: 80px;
+}
+
+.AddColumnsButton {
+    margin-bottom: 20px;
+    height: auto;
+    text-align: center;
+}
+
+.AddColumnsButton Button {
+    height: 60px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.CreateTaskButton {
+    text-align: center;
+    min-height: 80px;
+}
+
+.ColumnItem {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: inherit !important;
+    flex-direction: row;
+}
+
+.ColumnName {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    max-width: 75% !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ColumnName h2 {
+    margin-bottom: 0px;
+}
+
+.ColumnNameButton {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: auto !important;
+    display: flex;
+}
+
+.ColumnNameButton .DeleteColumn {
+    border: 0px solid;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 15px;
+}
+
+.ColumnNameButton .DeleteColumn svg {
+    margin-top: 9px;
+}
+
+.ColumnNameButton .EditColumnName {
+    border: 0px solid;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 15px;
+}
+
+.ColumnNameButton .EditColumnName svg{
+    width: 18px;
+    height: auto;
+}
+
+.CreateTaskButton Button {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    background: transparent;
+}
+
+.CreateTaskButton .ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+    background: transparent !important;
+}
+
+.TaskItem {
+    width: 100%;
+    display: flex;
+    flex-wrap: inherit !important;
+}
+
+.GroupTask {
+    width: 100%;
+}
+
+.TaskItem .TaskItemTitle {
+    color: wheat;
+    width: 100%;
+}
+
+.TaskItem .TaskItemTitle a {
+    color: red;
+    text-decoration: none;
+}
+
+.ant-tooltip-inner {
+    color: wheat;
+}
+
+
+.TaskItem .TaskItemEditButton {
+    margin-left: 0px;
+    display: flex;
+    width: auto;
+}
+
+.TaskItem .TaskItemEditButton .EditTask {
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    color: wheat;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+}
+
+.TaskItem .TaskItemEditButton .DeleteTask {
+    background: transparent;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+    color: wheat;
+}
+
+.TaskItem .TaskItemEditButton .DeleteTask svg {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.UpdateTaskName {
+    margin-bottom: 10px;
+}
+
+.ColumnParent, .TaskName, .ShortDercription, .LongDescription, .CreationTime, .LastModified {
+    width: 100%;
+    display: flex;
+}
+
+.ColumnParentTitle, .TaskNameTitle, .ShortDescriptionTitle, .LongDescriptionTitle, .CreationTimeTitle, .LastModifiedTitle {
+    width: 50%;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.ColumnParentData, .TaskNameData, .ShortDescriptionData, .LongDescriptionData, .CreationTimeData, .LastModifiedData {
+    width: 100%;
+}
+
+.App .container-fluid .AppContainer {
+    height: 100%;
+}
